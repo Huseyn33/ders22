@@ -71,29 +71,54 @@
 // console.log("Sonuncu olke",olke[olke.length-1]);
 // olke[0]="Pakistan"
 // task1
-let reqem=[1,4,6]
-reqem.forEach(reqemler => {
-    console.log(reqemler);
+// let reqem=[1,4,6]
+// reqem.forEach(reqemler => {
+//     console.log(reqemler);
+    
+// });
+// // task2
+// let ededler=[2,5,9]
+// ededler.forEach(element => {
+//     console.log(element.pow(element,2));
+    
+// });
+// let adlar=["tunar","malik","sona"]
+// adlar.forEach(ad => {
+//     console.log(ad.toLocaleUpperCase());
+    
+// });
+// let vurma=[2,4,6]
+// vurma.forEach(vurmalar => {
+//    console.log(vurmalar*2);
+    
+// });
+// let isare=["salam","men","Huseyn"]
+// isare.forEach(nida => {
+//     console.log(nida,!);
+    
+// });
+// task1
+let eded=[1,2,3]
+eded.forEach(element4 => {
+    console.log(element4+eded);
     
 });
 // task2
-let ededler=[2,5,9]
-ededler.forEach(element => {
-    console.log(element.pow(element,2));
+let reqemler=[1,5,4]
+reqemler.forEach(element => {
+    console.log(element);
     
 });
-let adlar=["tunar","malik","sona"]
-adlar.forEach(ad => {
-    console.log(ad.toLocaleUpperCase());
+// task3
+let ededler=[1,3,5]
+ededler.forEach(element2 => {
+    console.log(element2);
     
 });
-let vurma=[2,4,6]
-vurma.forEach(vurmalar => {
-   console.log(vurmalar*2);
-    
-});
-let isare=["salam","men","Huseyn"]
-isare.forEach(nida => {
-    console.log(nida,!);
-    
-});
+// task4
+let arr=["Tunar","Turan","Huseyn"]
+let arr2=arr.map(element => element.length)
+console.log(arr2);
+// task5
+let map1=["ali","malik","sona"]
+let map2=map1.map(element2 => element2.toLocaleUpperCase())
