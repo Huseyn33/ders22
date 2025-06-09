@@ -249,7 +249,7 @@ console.log(tap);
 const words = ["Mən", "JavaScript", "öyrənirəm"];
 
 
-console.log(words.join(""));
+console.log(words.join(" "));
 
 
 
@@ -264,5 +264,5 @@ console.log(c);
 const firstPart = ["Salam", "dünya!"];  
 const secondPart = ["Bu", "JavaScript-dir."];
 let birlesdir=firstPart.concat(secondPart)
-let cumle=birlesdir.join("")
+let cumle=birlesdir.join(" ")
 console.log(cumle);
